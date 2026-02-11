@@ -2,20 +2,22 @@
 
 import { useState } from 'react'
 import Image from 'next/image'
+import Link from 'next/link';
 
 export default function Portfolio() {
   const [activeFilter, setActiveFilter] = useState('all')
 
   const portfolioItems = [
-    { title: 'DocDoc', category: 'web ui', description: 'Healthcare platform with intuitive UI design', image: '/images/portfolio-img1.png' },
-    { title: 'Spring Money', category: 'ui', description: 'Financial services platform redesign', image: '/images/portfolio-img2.png' },
-    { title: 'Popdust', category: 'web branding', description: 'Entertainment news platform interface', image: '/images/portfolio-img6.png' },
-    { title: 'Reece', category: 'ui web', description: 'E-commerce platform with modern UI', image: '/images/portfolio-img3.png' },
-    { title: 'Trueself', category: 'ui', description: 'Personal development app interface', image: '/images/portfolio-img7.png' },
-    { title: 'AdRoll', category: 'web', description: 'Marketing platform dashboard design', image: '/images/portfolio-img5.png' }
+    { title: 'DocDoc', category: 'web', description: 'Healthcare platform with intuitive UI design', image: '/images/portfolio-img1.png',detailsLink: 'https://www.docdoc.com/',externalLink: 'https://www.docdoc.com/' },
+    { title: 'Spring Money', category: 'web', description: 'Financial services platform redesign', image: '/images/portfolio-img2.png',detailsLink: 'https://spring.money/',externalLink: 'https://spring.money/' },
+    { title: 'Popdust', category: 'branding', description: 'Entertainment news platform interface', image: '/images/portfolio-img6.png',detailsLink: 'https://www.popdust.com/?design=2021',externalLink: 'https://www.popdust.com/?design=2021' },
+    { title: 'Reece', category: 'web', description: 'E-commerce platform with modern UI', image: '/images/portfolio-img3.png',detailsLink: 'https://www.reecesafety.com/',externalLink: 'https://www.reecesafety.com/' },
+    { title: 'Trueself', category: 'branding', description: 'Personal development app interface', image: '/images/portfolio-img7.png',detailsLink: 'https://www.trueself.com/',externalLink: 'https://www.trueself.com/' },
+    { title: 'AdRoll', category: 'web', description: 'Marketing platform dashboard design', image: '/images/portfolio-img5.png',detailsLink: 'https://www.adroll.com/home-b',externalLink: 'https://www.adroll.com/home-b' },
+    { title: 'Reggiocase', category: 'web', description: 'Real Estate Domain', image: '/images/portfolio-img4.png',detailsLink: 'https://www.reggiocase.it/',externalLink: 'https://www.reggiocase.it/' }    
   ]
 
-  const filters = ['all', 'web', 'ui', 'branding']
+  const filters = ['all', 'web', 'branding']
 
   const handleFilter = (filter) => {
     setActiveFilter(filter)
@@ -62,9 +64,12 @@ export default function Portfolio() {
                     />
                     <div className="portfolio-overlay">
                       <div className="portfolio-links">
-                        <a href="#" className="portfolio-link" title="View Details">
+                        {/* <a  href={item.externalLink} target="_blank"  className="portfolio-link" title="View Details">
                           <i className="bi bi-eye"></i>
-                        </a>
+                        </a> */}
+                          <Link href={item.detailsLink} className="portfolio-link" title="View Details">
+                            <i className="bi bi-eye"></i>
+                          </Link>
                         <a href="#" className="portfolio-link" title="External Link">
                           <i className="bi bi-link-45deg"></i>
                         </a>

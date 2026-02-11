@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 [build]
   command = "npm run build"
   publish = ".next"
 
 [[plugins]]
+=======
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+[[plugins]]
+>>>>>>> f4f06ff (Changes Done)
   package = "@netlify/plugin-nextjs"

@@ -45,9 +45,9 @@ export default function About() {
                 I am an AI-Enabled Frontend Engineer with over 10+ years of experience, including practical experience using AI-assisted tools in frontend development and UI engineering. Currently working at Cygnet Infotech Pvt. Ltd. for more than 6 years, I design and deliver responsive, scalable, and user-focused web interfaces optimized through AI-driven workflows.
               </p>
               <p className="text-muted-custom mb-2">
-                I have hands-on experience leveraging AI tools such as ChatGPT, GitHub Copilot, and design-to-code automation to:
-
-                <div class="ai-tools-list">
+                I have hands-on experience leveraging AI tools such as ChatGPT, GitHub Copilot, and design-to-code automation to:              
+              </p>
+              <div class="ai-tools-list">
                     <ul>
                         <li>Generate and refactor frontend code (HTML, CSS, JavaScript)</li>
                         <li>Create reusable UI components, forms, tables, and dashboards</li>
@@ -55,8 +55,6 @@ export default function About() {
                         <li>Optimize UI performance and accessibility with AI-based suggestions</li>
                     </ul>
                 </div>
-
-              </p>
               <p className="text-muted-custom mb-2">
                 My technical skill set includes HTML5, CSS3 (SCSS/LESS), JavaScript, jQuery, Bootstrap 3+, along with strong expertise in UI/UX design tools like Figma, Adobe XD, and Photoshop. I specialize in converting designs into pixel-perfect, production-ready interfaces using AI-assisted development practices rather than manual coding alone.
               </p>
