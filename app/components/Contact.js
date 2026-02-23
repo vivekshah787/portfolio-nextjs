@@ -60,7 +60,7 @@ export default function Contact() {
         </div>
 
         <div className="row g-4 justify-content-center">
-          <div className="col-lg-4">
+          <div className="col-lg-5">
             <div className="contact-info fade-in">
               {contactInfo.map((info, index) => (
                 <div className="contact-item" key={index}>
