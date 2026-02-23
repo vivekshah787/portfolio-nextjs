@@ -42,7 +42,7 @@ export default function About() {
             <div className="about-card fade-in">
               
               <p className="text-muted-custom mb-2">
-                I am an AI-Enabled Frontend Engineer with over 10+ years of experience, including practical experience using AI-assisted tools in frontend development and UI engineering. Currently working at Cygnet Infotech Pvt. Ltd. for more than 6 years, I design and deliver responsive, scalable, and user-focused web interfaces optimized through AI-driven workflows.
+                I am an Sr.Product Designer with over 10+ years of experience, including practical experience using AI-assisted tools in frontend development and UI engineering. Currently working at Cygnet Infotech Pvt. Ltd. for more than 6 years, I design and deliver responsive, scalable, and user-focused web interfaces optimized through AI-driven workflows.
               </p>
               <p className="text-muted-custom mb-2">
                 I have hands-on experience leveraging AI tools such as ChatGPT, GitHub Copilot, and design-to-code automation to:              
