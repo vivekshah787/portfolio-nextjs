@@ -124,7 +124,7 @@ export default function Sidebar({ isOpen, onLinkClick }) {
             <i className="bi bi-instagram"></i>
           </a>
         </div>
-        <a href="/images/Vivek_Shah_Product_Designer.pdf" target="_blank" className="download-cv">
+        <a href="/images/Vivek_Shah_CV_Global.pdf" target="_blank" className="download-cv">
           <i className="bi bi-download"></i>
           Download CV
         </a>
