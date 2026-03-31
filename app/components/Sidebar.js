@@ -47,7 +47,7 @@ export default function Sidebar({ isOpen, onLinkClick }) {
           />
         </div>
         <h2 className="sidebar-name">Vivek Shah</h2>
-        <p className="sidebar-title">Senior UI/UX Designer</p>
+        <p className="sidebar-title">Senior UI/UX/Product Designer</p>
       </div>
 
       <nav>
