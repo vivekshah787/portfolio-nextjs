@@ -25,7 +25,7 @@ export const metadata = {
   openGraph: {
     title: 'Vivek Shah - UI/UX Designer Portfolio',
     description: 'Senior UI/UX Designer with over 8 years of experience',
-    url: 'https://vivekshah.online',
+    url: 'https://sprightly-capybara-e2e160.netlify.app/',
     siteName: 'Vivek Shah Portfolio',
     locale: 'en_US',
     type: 'website',

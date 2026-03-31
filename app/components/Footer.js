@@ -26,7 +26,7 @@ export default function Footer() {
             ))}
           </div>
           <p className="footer-text">
-            &copy; 2025 <a href="https://vivekshah.online/">Vivek Shah</a>. All rights reserved.
+            &copy; 2025 <a href="https://sprightly-capybara-e2e160.netlify.app/">Vivek Shah</a>. All rights reserved.
           </p>
         </div>
       </div>
