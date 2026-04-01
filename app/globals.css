@@ -968,6 +968,9 @@ textarea.form-control {
 
 /* Responsive Design */
 @media (max-width: 991px) {
+  .timeline-dot {
+      left: 0px;
+  }
   .sidebar {
     transform: translateX(-100%);
   }
