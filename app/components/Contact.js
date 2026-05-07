@@ -43,8 +43,8 @@ export default function Contact() {
     {
       icon: 'bi-envelope',
       title: 'Email',
-      details: ['vivekshahproductdesigner@gmail.com'],
-      link: 'mailto:vivekshahproductdesigner@gmail.com'
+      details: ['vivekshah061993@gmail.com'],
+      link: 'mailto:vivekshah061993@gmail.com'
     }
   ]
 

@@ -3,7 +3,7 @@
 export default function Experience() {
   const experiences = [
     {
-      title: 'Senior UI Designer',
+      title: 'Senior Product Designer',
       company: 'Cygnet Infotech PVT LTD.',
       date: 'Jun 2019 - Present',
       description: 'Designed and implemented responsive UI/UX solutions, collaborating with developers and mentoring junior designers. Ensured seamless multi-device compatibility using HTML, CSS, JavaScript, and best practices.'

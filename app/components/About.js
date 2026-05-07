@@ -19,7 +19,7 @@ export default function About() {
           <p className="section-subtitle">Get To Know More</p>
           <h2 className="section-title">About Me</h2>
           <p className="section-description">
-            AI-Enabled Frontend Engineer | Senior UI & UX Specialist
+            Senior Product Designer (SaaS & Enterprise UX)
           </p>
         </div>
 
