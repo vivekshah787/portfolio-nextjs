@@ -648,6 +648,7 @@ footer p { font-size: 13px; color: var(--clr-muted); margin: 0; }
   .pi-tags, .pi-year { display: none; }
   body { cursor: auto; }
   .cursor, .cursor-follower { display: none; }
+  .exp-big-num {font-size: 68px;}
 }
 @media (max-width: 480px) {
   .service-cards-grid { grid-template-columns: 1fr; }
