@@ -47,7 +47,7 @@ export default function Contact() {
           <div className="contact-cards">
             {[
               { icon: 'bi-envelope', label: 'Email', value: 'vivekshah061993@gmail.com', href: 'mailto:vivekshah061993@gmail.com' },
-              { icon: 'bi-telephone', label: 'Phone', value: '+91 98765 43210', href: 'tel:+919876543210' },
+              { icon: 'bi-telephone', label: 'Phone', value: '+91 99247 45782', href: 'tel:+91 9924745782' },
               { icon: 'bi-geo-alt', label: 'Location', value: 'Ahmedabad, Gujarat, India', href: null },
               { icon: 'bi-linkedin', label: 'LinkedIn', value: 'linkedin.com/in/vivek-shah', href: 'https://www.linkedin.com/in/vivek-shah-587b96114/' },
             ].map((card) => (
