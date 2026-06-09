@@ -17,7 +17,7 @@ npm install
 
 ### 2. Configure email (required for contact form)
 ```bash
-cp .env.local.example .env.local
+cp .env.local .env.local
 ```
 Open `.env.local` and fill in:
 ```
@@ -64,7 +64,7 @@ vmshah-portfolio/
 │   │   └── ScrollReveal.tsx
 │   └── styles/
 │       └── globals.css         # All design tokens + component styles
-├── .env.local.example
+├── .env.local
 ├── next.config.js
 ├── tsconfig.json
 └── package.json
