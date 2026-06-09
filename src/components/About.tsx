@@ -7,7 +7,7 @@ export default function About() {
       <div className="about-container">
         <div className="about-grid">
           <div className="about-img-wrap reveal">
-            <Image src="https://vmshah.netlify.app/images/vs2.jpg" alt="Vivek Shah" width={420} height={520} style={{ width: '100%', height: 'auto' }} />
+            <Image src="https://vmshah.netlify.app/images/vs.png" alt="Vivek Shah" width={420} height={520} style={{ width: '100%', height: 'auto' }} />
             <div className="about-availability">
               <span className="availability-dot" />
               Available for Projects

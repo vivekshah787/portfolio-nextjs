@@ -2,24 +2,31 @@
 
 const TIMELINE = [
   {
-    date: '2018 — Present',
+    date: 'Jun 2019 — Present',
     role: 'Senior UI/Product Designer',
     company: 'Cygnet Infotech, Ahmedabad',
     desc: 'Leading UI/UX design for enterprise SaaS products, managing design systems, mentoring junior designers, and collaborating with cross-functional product and dev teams.',
     badge: 'Full-time · 6+ yrs',
   },
   {
-    date: '2016 — 2018',
+    date: 'Feb 2019 — May 2019',
     role: 'UI/UX Designer',
-    company: 'Freelance & Agencies',
-    desc: 'Designed responsive web products for clients across healthcare, real estate, and e-commerce — from discovery and wireframes through to hand-off.',
+    company: 'GreenApex LLP, Ahmedabad',
+    desc: 'Developed and maintained user-facing webpages using HTML5, CSS3, JavaScript, and jQuery with emphasis on responsive, multi-device layouts,Created responsive designs optimizing layouts across mobile, tablet, and desktop platforms,Mentored junior designers on UX and UI best practices to raise team quality standards.',
     badge: 'Freelance',
   },
   {
-    date: '2014 — 2016',
-    role: 'Web Designer',
+    date: 'Sep 2017 — Jan 2019',
+    role: 'IndiaNIC Infotech Limited, Ahmedabad',
     company: 'Digital Agency, Ahmedabad',
     desc: 'Created pixel-perfect HTML/CSS templates, landing pages, and branding assets for local and international clients.',
+    badge: 'Agency',
+  },
+  {
+    date: 'Jul 2017 — Dec 2015',
+    role: 'Prime Apps Infotech, Ahmedabad',
+    company: 'Digital Agency, Ahmedabad',
+    desc: 'Delivered clean, standards-compliant HTML and CSS across multiple client projects,Built responsive websites ensuring optimized performance, usability, and cross-browser consistency,Collaborated with cross-functional teams including developers, QA, and project managers to enhance client websites.',
     badge: 'Agency',
   },
 ];
