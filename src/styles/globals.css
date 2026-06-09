@@ -482,7 +482,7 @@ hr.fancy {
 .about-info-item .label { font-size: 11px; color: var(--clr-muted); text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 4px; }
 .about-info-item .value { font-family: var(--font-display); font-size: 14px; font-weight: 600; color: var(--clr-text); }
 .about-img-wrap { position: relative; border-radius: var(--radius-lg); overflow: visible; }
-.about-img-wrap img { width: 100%; border-radius: var(--radius-lg); border: 1px solid var(--clr-border); display: block; }
+.about-img-wrap img { width: 100%; border-radius: var(--radius-lg); border: 1px solid var(--clr-border); display: block;height: 460px !important;object-fit: cover; }
 .about-availability { position: absolute; bottom: -16px; right: -16px; background: var(--clr-surface); border: 1px solid var(--clr-border); border-radius: 40px; padding: 12px 16px; display: flex; align-items: center; gap: 10px; font-family: var(--font-display); font-size: 12px; font-weight: 600; box-shadow: 0 8px 32px rgba(0,0,0,0.1); }
 .availability-dot { width: 8px; height: 8px; background: #10B981; border-radius: 50%; animation: pulse 2s infinite; }
 
