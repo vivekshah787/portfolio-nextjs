@@ -1,0 +1,29 @@
+{
+  "name": "vmshah-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": ">=18.20.8"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "14.2.5",
+    "nodemailer": "^6.10.1",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-intersection-observer": "^9.13.1",
+    "resend": "^6.4.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/nodemailer": "^6.4.23",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "typescript": "6.0.3"
+  }
+}
