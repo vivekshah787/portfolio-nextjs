@@ -3,7 +3,7 @@ export default function Footer() {
   return (
     <footer>
       <div className="footer-container">
-        <a href="#home" className="footer-logo">VS<span>.</span></a>
+        <a href="/#home" className="footer-logo">VS<span>.</span></a>
         <p>© {year} Vivek Shah. All rights reserved.</p>
         <div style={{ display: 'flex', gap: 12 }}>
           {[
