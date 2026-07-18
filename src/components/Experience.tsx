@@ -6,7 +6,7 @@ const TIMELINE = [
     role: 'Senior UI/Product Designer',
     company: 'Cygnet Infotech, Ahmedabad',
     desc: 'Leading UI/UX design for enterprise SaaS products, managing design systems, mentoring junior designers, and collaborating with cross-functional product and dev teams.',
-    badge: 'Full-time · 6+ yrs',
+    badge: 'Full-time · 7+ yrs',
   },
   {
     date: 'Feb 2019 — May 2019',
