@@ -66,7 +66,7 @@ export default function Contact() {
           </div>
 
           {/* Form */}
-          <div className="contact-form-wrap reveal reveal-delay-2">
+          {/* <div className="contact-form-wrap reveal reveal-delay-2">
             <form onSubmit={handleSubmit} noValidate>
               <div className="form-row">
                 <div>
@@ -130,7 +130,7 @@ export default function Contact() {
                 </button>
               </div>
             </form>
-          </div>
+          </div> */}
         </div>
       </div>
 

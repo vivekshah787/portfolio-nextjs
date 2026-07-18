@@ -106,7 +106,7 @@ export default function Hero() {
                 <div className="hero-stat-label">Projects Delivered</div>
               </div>
               <div className="hero-stat">
-                <div className="hero-stat-num">6<span>+</span></div>
+                <div className="hero-stat-num">7<span>+</span></div>
                 <div className="hero-stat-label">Years at Cygnet</div>
               </div>
             </div>
